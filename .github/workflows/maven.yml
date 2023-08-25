@@ -33,3 +33,6 @@ jobs:
     - name: Build Docker Image
       run: docker build -t mirakiii/hello-world-java-maven:0.0.1.Release .
 
+    - name: Push Docker Image
+      run: docker push mirakiii/hello-world-java-maven:0.0.1.Release
+
